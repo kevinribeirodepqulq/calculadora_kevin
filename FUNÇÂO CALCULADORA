@@ -1,0 +1,32 @@
+# calculadora_kevin
+FUNÇÂO CALCULADORA
+let num1 = Number( prompt("Digite um numero"));
+
+let num2 = Number( prompt("Digite o segundo numero"));
+
+let num3 = Number ( prompt("Digite o terceiro numero"));
+
+
+function somar (num1,num2){
+       alert ( "a soma é " + (num1 + num2) );
+}
+somar(num1 , num2);
+
+function subtrair (num1,num2){
+       alert ( "a subtração é " + (num1 - num2) );
+}
+              
+subtrair(num2 ,num3);
+
+
+function multiplicar (num1,num2){
+       alert ( "a multiplicação é " + (num1 * num2) );
+}
+multiplicar( num3 ,num2)
+
+function dividir (num1,num2){
+       alert ( "a divisão é " + (num1 / num2) );
+}
+
+dividir( num3, num2)
+
